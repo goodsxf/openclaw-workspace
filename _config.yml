@@ -1,0 +1,31 @@
+# GitHub Pages 配置
+title: OpenClaw Workspace
+description: OpenClaw工作空间 - 项目管理和知识库
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - "*.md"
+  - "**/*.md"
+exclude:
+  - README.md
+  - .github/
+  - .git/
+  - node_modules/
+  - vendor/
+
+# 导航配置
+navigation:
+  - title: "项目进度"
+    url: "/项目进度报告.md"
+  - title: "工作状态看板"
+    url: "/工作状态看板.md"
+  - title: "知识库"
+    url: "/knowledge-base/"
+  - title: "项目"
+    url: "/projects/"
+  - title: "操作记录"
+    url: "/operations/"
